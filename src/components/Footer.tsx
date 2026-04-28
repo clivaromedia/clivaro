@@ -13,7 +13,7 @@ export function Footer() {
               </div> */}
               <a href="/" className="flex items-center gap-2">
         {/* <img src="/public/images/clivaro_icon.png" alt="Clivaro Icon" className="w-8 h-8"/> */}
-        <img src="/public/images/clivaro_logo.png" alt="Clivaro Media" className="h-8 w-auto"/>
+        <img src="/images/clivaro_logo.png" alt="Clivaro Media" className="h-8 w-auto"/>
         </a>
               {/* <span className="font-heading font-bold text-xl tracking-tight text-foreground">Clivaro Media</span> */}
             </a>
