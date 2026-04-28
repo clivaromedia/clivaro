@@ -75,7 +75,7 @@ export function WhyChooseUs() {
                <div className="absolute inset-0 bg-background/20 backdrop-blur-[2px]" />
                
                <div className="absolute inset-0 flex flex-col items-center justify-center z-20 text-center p-8">
-                 <h3 className="text-4xl md:text-6xl font-bold font-heading text-white mb-4">10M+</h3>
+                 <h3 className="text-4xl md:text-6xl font-bold font-heading text-white mb-4">10000+</h3>
                  <p className="text-xl text-white/90 font-medium">Views generated for our clients this year.</p>
                </div>
             </div>

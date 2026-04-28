@@ -8,10 +8,14 @@ export function Footer() {
         <div className="grid md:grid-cols-4 gap-12 mb-16">
           <div className="md:col-span-2">
             <a href="/" className="flex items-center gap-2 mb-6 inline-flex cursor-pointer">
-              <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
+              {/* <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
                 <span className="text-primary-foreground font-bold font-heading text-xl">C</span>
-              </div>
-              <span className="font-heading font-bold text-xl tracking-tight text-foreground">Clivaro Media</span>
+              </div> */}
+              <a href="/" className="flex items-center gap-2">
+        {/* <img src="/public/images/clivaro_icon.png" alt="Clivaro Icon" className="w-8 h-8"/> */}
+        <img src="/public/images/clivaro_logo.png" alt="Clivaro Media" className="h-8 w-auto"/>
+        </a>
+              {/* <span className="font-heading font-bold text-xl tracking-tight text-foreground">Clivaro Media</span> */}
             </a>
             <p className="text-muted-foreground max-w-sm mb-6">
               The creator-focused studio for high-retention short-form clips and conversion-optimized websites.

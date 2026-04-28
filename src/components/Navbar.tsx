@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { Menu } from "lucide-react";
+
 import {
   Sheet,
   SheetContent,
@@ -30,12 +31,16 @@ export function Navbar() {
       className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border"
     >
       <div className="container mx-auto px-4 h-20 flex items-center justify-between">
-        <a href="/" className="flex items-center gap-2 cursor-pointer">
+        <a href="/" className="flex items-center gap-2">
+        {/* <img src="/public/images/clivaro_icon.png" alt="Clivaro Icon" className="w-8 h-8"/> */}
+        <img src="/public/images/clivaro_logo.png" alt="Clivaro Media" className="h-14 w-auto"/>
+        </a>
+        {/* <a href="/" className="flex items-center gap-2 cursor-pointer">
           <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
             <span className="text-primary-foreground font-bold font-heading text-xl">C</span>
           </div>
           <span className="font-heading font-bold text-xl tracking-tight text-foreground">Clivaro Media</span>
-        </a>
+        </a> */}
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8">
