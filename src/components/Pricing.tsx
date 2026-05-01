@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 const tiers = [
   {
     name: "Starter",
-    price: "$999",
+    price: "6999",
     period: "/month",
     description: "Perfect for growing creators needing consistent content.",
     features: [
@@ -24,7 +24,7 @@ const tiers = [
   },
   {
     name: "Growth",
-    price: "$2,499",
+    price: "9999",
     period: "/month",
     description: "The complete package. Content + Web presence.",
     features: [

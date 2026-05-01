@@ -13,7 +13,7 @@ export function Footer() {
               </div> */}
               <a href="/" className="flex items-center gap-2">
         {/* <img src="/public/images/clivaro_icon.png" alt="Clivaro Icon" className="w-8 h-8"/> */}
-        <img src="/images/clivaro_logo.png" alt="Clivaro Media" className="h-8 w-auto"/>
+        <img src="/images/clivaro_icon_blue.png" alt="Clivaro Media" className="h-14 w-auto"/>
         </a>
               {/* <span className="font-heading font-bold text-xl tracking-tight text-foreground">Clivaro Media</span> */}
             </a>
@@ -28,7 +28,7 @@ export function Footer() {
               <li><a href="#services" className="text-muted-foreground hover:text-primary transition-colors text-sm">Short-Form Clipping</a></li>
               <li><a href="#services" className="text-muted-foreground hover:text-primary transition-colors text-sm">Web Development</a></li>
               <li><a href="#pricing" className="text-muted-foreground hover:text-primary transition-colors text-sm">Pricing</a></li>
-              <li><a href="#portfolio" className="text-muted-foreground hover:text-primary transition-colors text-sm">Portfolio</a></li>
+              {/* <li><a href="#portfolio" className="text-muted-foreground hover:text-primary transition-colors text-sm">Portfolio</a></li> */}
             </ul>
           </div>
           

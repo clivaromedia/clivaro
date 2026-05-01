@@ -75,7 +75,7 @@ export function Hero() {
                 </div>
                 <div>
                   <p className="text-xs text-muted-foreground font-medium">Engagement</p>
-                  <p className="text-sm font-bold text-foreground">+340%</p>
+                  <p className="text-sm font-bold text-foreground">+200%</p>
                 </div>
               </div>
             </motion.div>

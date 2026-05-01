@@ -16,6 +16,13 @@ const features = [
 ];
 
 export function Services() {
+    const scrollTo = (id: string) => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section id="services" className="py-24 bg-card/30 relative">
       <div className="absolute inset-0 bg-gradient-to-b from-background to-transparent pointer-events-none" />
@@ -61,7 +68,7 @@ export function Services() {
                   </>
                 )}
               </ul>
-              <Button variant="outline" className="w-full group">
+              <Button onClick={() => scrollTo("cta")} variant="outline" className="w-full group">
                 Learn more
                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
