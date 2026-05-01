@@ -1,3 +1,4 @@
+import { Mail, Instagram} from "lucide-react";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -49,7 +50,23 @@ export function Footer() {
           </p>
           <div className="flex gap-4">
             {/* Social Links Placeholders */}
-            <a href="#" className="w-10 h-10 rounded-full bg-card border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors">
+            <a
+            href="https://instagram.com/clivaromedia" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-10 h-10 rounded-full bg-card border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
+          >
+            <Instagram className="w-5 h-5" />
+          </a>
+
+          {/* Email */}
+          <a
+            href="mailto:clivaromedia@gmail.com"
+            className="w-10 h-10 rounded-full bg-card border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
+          >
+            <Mail className="w-5 h-5" />
+          </a>
+            {/* <a href="#" className="w-10 h-10 rounded-full bg-card border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors">
               X
             </a>
             <a href="#" className="w-10 h-10 rounded-full bg-card border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors">
@@ -57,7 +74,7 @@ export function Footer() {
             </a>
             <a href="#" className="w-10 h-10 rounded-full bg-card border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors">
               TT
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
